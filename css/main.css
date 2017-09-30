@@ -24,13 +24,6 @@
     background-color: #c0392b;
 }
 
-.game-block {
-  width: 100%;
-  height: 600px;
-  color: white;
-  text-decoration-color: white;
-}
-
 .logo {
   display: block;
   color: white;
@@ -48,5 +41,29 @@
   background: #c0392b;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  border-color: 1px solid black;
+  box-shadow: 0px 1px 3px #111;
+}
+
+.first-paragraph {
+  font-family: "Courier New", Courier, monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-decoration: none;
+  text-align: left;
+}
+
+.second-paragraph{
+font-family: "Courier New", Courier, monospace;
+font-style: italic;
+font-weight: normal;
+font-size: 14px;
+letter-spacing: normal;
+line-height: normal;
+text-transform: none;
+text-decoration: none;
+text-align: left;
 }
