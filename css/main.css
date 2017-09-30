@@ -1,0 +1,52 @@
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    height: 50px;
+}
+
+.active {
+    background-color: #c0392b;
+}
+
+.game-block {
+  width: 100%;
+  height: 600px;
+  color: white;
+  text-decoration-color: white;
+}
+
+.logo {
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  border-radius: 53px;
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  background: #c0392b;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-color: 1px solid black;
+}
