@@ -48,7 +48,7 @@
   font-family: "Courier New", Courier, monospace;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: normal;
   line-height: normal;
   text-transform: none;
@@ -57,13 +57,22 @@
 }
 
 .second-paragraph{
-font-family: "Courier New", Courier, monospace;
-font-style: italic;
-font-weight: normal;
-font-size: 14px;
-letter-spacing: normal;
-line-height: normal;
-text-transform: none;
-text-decoration: none;
-text-align: left;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-decoration: none;
+  text-align: left;
+}
+
+.special-list li a{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.special-list li{
+  list-style-type: none;
 }
