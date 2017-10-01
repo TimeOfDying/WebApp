@@ -1,28 +1,39 @@
+.logo {
+  float:left;
+  padding-right: 15px;
+  margin-top: 5px;
+  text-shadow: 2px 2px 2px #111;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
 .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    height: 50px;
-    box-shadow: 2px 2px 2px #111;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  height: 50px;
+  box-shadow: 2px 2px 2px #111;
 }
 
 .menu li {
-    float: left;
+  float: left;
 }
 
 .menu li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px 16px;
-    text-decoration: none;
-    height: 50px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
 }
 
 .active {
-    background-color: #c0392b;
+  background-color: #c0392b;
 }
 
 .logo {
@@ -31,7 +42,7 @@
   text-align: center;
 }
 
-.btn {
+.start-button {
   position: absolute;
   top: 50%;
   left: 45%;
@@ -71,11 +82,13 @@
   text-align: center;
 }
 
-.special-list li{
-  list-style-type: none;
+.special-list {
+  padding-top: 10px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.special-list li a{
+.special-list li{
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   font-size: 20px;
