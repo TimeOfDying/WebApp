@@ -8,14 +8,15 @@
 </head>
 <body background="assets/background.jpg">
 	<header>
-	<h1 class="logo"><a href="index.html">GameName</a></h1>
-	<nav class="menu">
-		<ul>
-			<li><a href="start.html">Start</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="topList.html">Top List</a></li>
-		</ul>
-	</nav>
+	<h1 class="logo"><a href="index.php">GameName</a></h1>
+	<?php
+		require('menu.php');
+        echo Menu::returnHTMLmenu($_GET['page']);
+    ?>
 	</header>
+	<?php
+		require('content.php');
+        echo Content::getPage($_GET['page']);
+    ?>
 </body>
 </html>
