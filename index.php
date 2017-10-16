@@ -10,13 +10,12 @@
 	<header>
 	<h1 class="logo"><a href="index.php">GameName</a></h1>
 	<?php
-		require('menu.php');
-        echo Menu::returnHTMLmenu($_GET['page']);
+		require('DynamicContent.php');
+        echo DynamicContent::returnHTMLmenu($_GET['page']);
     ?>
 	</header>
 	<?php
-		require('content.php');
-        echo Content::getPage($_GET['page']);
+        echo DynamicContent::getPage($_GET['page']);
     ?>
 </body>
 </html>
