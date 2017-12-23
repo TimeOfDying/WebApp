@@ -1,0 +1,4 @@
+[{"id":"0", "name":"Jadeslinger", "image":"img/Jadeslinger.png", "power":"5", "speed":"1"}, 
+{"id":"1", "name":"Red Shadow", "image":"img/RedShadow.png", "power":"10", "speed":"2"},
+{"id":"2", "name":"Silentkill", "image":"img/Silentkill.png", "power":"15", "speed":"3"},
+{"id":"3", "name":"Archimonde", "image":"img/Archimonde.png", "power":"20", "speed":"4"}]

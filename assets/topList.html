@@ -1,11 +1,14 @@
-<body background="assets/background.jpg">
-	<div class="special-list">
-		<ol>
-			  <li>First</li>
-			  <li>Second</li>
-			  <li>Third</li>
-			  <li>Fourth</li>
-			  <li>Fifth</li>
-		</ol>
-	</div>
-</body>
+<div class="topListPage">
+    <table class="scoreTable">
+        <tr>
+            <th>Number</th>
+            <th>Nickname</th>
+            <th>Score</th>
+        </tr>
+        <tr ng-repeat="user in users | orderBy:'score':!reverse">
+            <td>{{$index + 1}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.score}}</td>
+        </tr>
+    </table>
+</div>
